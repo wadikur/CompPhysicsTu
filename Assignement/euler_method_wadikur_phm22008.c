@@ -17,7 +17,7 @@ int main() {
   // The user input for x has to be multiple of h.
   // Else it will give error.
 
-  printf("Enter the value of x for which you want to find function\n");
+  printf("Enter the value of x for which you want to find y:\n");
   scanf("%f", &u_x);
   n = u_x / h;
   // n will give us how many step
@@ -25,6 +25,6 @@ int main() {
     y = y + h * (x + y);
     x=x+h;
   }
-  printf("The value of y at %f is %f", u_x, y);
+  printf("The value of y at %f is: %f \n", u_x, y);
   return 0;
 }
