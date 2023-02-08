@@ -23,7 +23,7 @@ int main() {
   // n will give us how many step
   for (i = 1; i <= n; i++) {
     y = y + h * (x + y);
-    x=x+h
+    x=x+h;
   }
   printf("The value of y at %f is %f", u_x, y);
   return 0;
